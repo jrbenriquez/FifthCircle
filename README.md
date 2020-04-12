@@ -13,7 +13,7 @@ Touch center to toggle between Major Keys and their corresponding Relative Minor
 
 Touch Note sections to play audio for that note.
 
-##Things/Features to do/add
+## Things/Features to do/add
 
 - Add Application Icons
 - Test in iOS
