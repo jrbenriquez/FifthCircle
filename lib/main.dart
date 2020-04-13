@@ -87,7 +87,8 @@ class _MainPageState extends State<MainPage> {
             enabled: true,
             touchCallback: (pieTouchResponse) {
               setState(() {
-                if (pieTouchResponse.touchInput is FlPanStart) {
+                if (pieTouchResponse.touchInput is FlPanStart &&
+                    pieTouchResponse.touchedSection != null) {
                   playNote(pieTouchResponse.touchedSection.title);
                   selectedNote = pieTouchResponse.touchedSection.title;
                 }

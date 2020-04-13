@@ -15,7 +15,6 @@ Touch Note sections to play audio for that note.
 
 ## Things/Features to do/add
 
-- Add Application Icons
 - Test in iOS
 - Fix/Report gesture bug for right most section
 - Add Themes - Dark, Color Shades etc.
